@@ -1,4 +1,0 @@
-SDP_dual_Nplus2_getting_results_0to1_BCR;
-SDP_dual_Nplus2_getting_results_std_BCR;
-SDP_dual_Nplus2_getting_results_0to1_BCR_82;
-SDP_dual_Nplus2_getting_results_std_BCR_82;
