@@ -1,6 +1,6 @@
 clear;
 clc;
-close all;
+% close all;
 addpath('results\');
 n_dataset=17;
 n_results=14;
@@ -60,7 +60,7 @@ names = {'australian'; 'breast-cancer'; 'diabetes';...
 names=names(datasize_order_idx);
 
 ncolors = distinguishable_colors(n_method);
-figure(1);hold on;
+figure();hold on;
 for i=1:n_method
     if i<=4
         plot(results_err(:,i),...
@@ -98,7 +98,7 @@ grid on;
 legend;
 title('Fig.3 right');
 
-figure(2);hold on;
+figure();hold on;
 for i=1:n_method 
     if i<=4
         plot(results_time(:,i),...

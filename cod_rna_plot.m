@@ -1,6 +1,6 @@
 clear;
 clc;
-close all;
+% close all;
 
 n_method=7;
 font_size=12;
